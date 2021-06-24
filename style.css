@@ -1,0 +1,88 @@
+.mainImg {
+    width: 300px;
+    box-shadow: 10px 10px 8px #E6E6FA;
+}
+
+.imageHolder {
+    margin-bottom: 30px;
+}
+
+
+#header {
+    background-color: #C71585;
+    font-family: 'Newsreader', serif;
+    color: #E6E6FA;
+}
+
+#body {
+    background-color: #DDA0DD;
+}
+
+.imageHolder:hover {
+    transform: rotate(20deg);
+}
+
+#messages-tag1, #messages-tag3 {
+    border-left-color: #87CEEB;
+    border-left-width: 15px;
+    padding-left: 10px;
+    background-color: #9370DB;
+    color: #F0F8FF;
+    margin-left: 15px;
+    font-size: 70px;
+    height: 100px;
+    display: flex;
+    width: 60%;
+    box-shadow: 10px 10px 8px #E6E6FA;
+    margin-bottom: 40px;
+    transform: matrix(1, -0.2, 0, 1, 0, 0);
+}
+
+#messages-tag2, #messages-tag4 {
+    border-right-color: #87CEEB;
+    border-right-width: 15px;
+    padding-left: 10px;
+    background-color: #9370DB;
+    color: #F0F8FF;
+    margin-right: 15px;
+    font-size: 75px;
+    display: flex;
+    width: 60%;
+    float: right;
+    box-shadow: 10px 10px 8px #E6E6FA;
+    margin-bottom: 40px;
+    transform: matrix(1, 0.2, 0, 1, 0, 0);
+}
+
+
+#myCarousel {
+    box-shadow: 10px 10px 8px #E6E6FA;
+    width: 60%;
+}
+
+#balloon1, #balloon2, #marquee, #stop {
+    visibility: hidden;
+}
+
+#marquee {
+    background-color: floralwhite;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+#stop:hover {
+    background-color: lightskyblue;
+}
+
+#stop {
+    background-color: floralwhite;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    border-width: 5px;
+}
